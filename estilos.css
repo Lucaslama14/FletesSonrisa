@@ -9,14 +9,14 @@
   margin-left: auto;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  grid-template-rows: repeat(20%, 20%, 20%, 20%);
-}
+  grid-template-rows: repeat(20%, 20%, 20%, 20%); }
 
 .navbar-nav {
   margin: 0 auto;
   font-size: 25px; }
 
-.texto {
+.subtitulo {
+  font-family: 'Alfa Slab One', cursive;
   text-align: center;
   font-size: 18px; }
 
