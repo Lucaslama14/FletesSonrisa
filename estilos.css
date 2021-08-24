@@ -1,0 +1,111 @@
+* {
+  margin: 0.04cm;
+  padding: 0.4cm;
+  background-color: grey; }
+
+.body {
+  background-color: grey;
+  margin-right: 40px;
+  margin-left: auto;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(20%, 20%, 20%, 20%);
+}
+
+.navbar-nav {
+  margin: 0 auto;
+  font-size: 25px; }
+
+.texto {
+  text-align: center;
+  font-size: 18px; }
+
+.navbar {
+  background-color: grey; }
+
+.navbarlinks {
+  text-decoration: none;
+  color: black;
+  background-color: grey; }
+
+.formulario__btn {
+  background-color: brown;
+  color: black; }
+
+.encabezado__titulo {
+  background-color: grey;
+  color: black;
+  text-align: center;
+  font-family: 'Permanent Marker', cursive;
+  letter-spacing: 20px; }
+
+.titulo {
+  font-size: 80px; }
+
+.sesion {
+  color: brown;
+  font-weight: bolder; }
+
+.presu {
+  font-size: 50px;
+  padding-right: 100px;
+  border-style: solid;
+  text-align: center;
+  background-color: brown;
+  border-radius: 20px;
+  color: black;
+  text-align: center;
+  font-family: 'Alfa Slab One', cursive; }
+
+.aqui {
+  background-color: brown;
+  color: w; }
+
+.tarifa {
+  font-size: 80px;
+  width: 300px;
+  margin: 0 auto; }
+
+.presios {
+  background-color: brown;
+  width: 300px;
+  margin: 0 auto; }
+
+.formulario {
+  width: 400px;
+  margin: 0 auto;
+  border: brown 5px double;
+  border-radius: 20px; }
+
+input {
+  background-color: white; }
+
+textarea {
+  background-color: white; }
+
+.mapa {
+  margin: 0 auto;
+  width: 80%; }
+
+.unidades2 {
+  display: grid;
+  grid-template-columns: repeat(2);
+  justify-content: space-around; }
+
+.fotoflet {
+  width: 300px;
+  height: 600px;
+  border: 3.5px solid brown; }
+
+.fotoflett {
+  width: 500px;
+  height: 600px;
+  border: 3.5px solid brown; }
+
+@media (max-width: 1200px) {
+  .titulo {
+    background-color: brown; } }
+
+@media (max-width: 320px) {
+  .titulo {
+    background-color: cyan; } }
